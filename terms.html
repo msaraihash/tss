@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Use — TECTONIC SHIFT STRATEGIES INC.</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="policy">
+    <h1>Terms of Use</h1>
+    <p>Effective: <span id="date"></span></p>
+    <p>
+      Content on this site is provided for general information only and does not constitute professional advice.
+    </p>
+    <p><a href="./">← Back to home</a></p>
+  </main>
+  <script>
+    document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>

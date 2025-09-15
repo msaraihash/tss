@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cookie Notice — TECTONIC SHIFT STRATEGIES INC.</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="policy">
+    <h1>Cookie Notice</h1>
+    <p>Effective: <span id="date"></span></p>
+    <p>
+      This site uses only strictly necessary cookies to support core functionality (for
+      example, remembering basic preferences or enabling secure sessions). We do not use
+      cookies for advertising or tracking, and we do not run third‑party analytics.
+    </p>
+    <p>
+      By continuing to use this site, you consent to the use of these minimal cookies. You
+      can disable cookies in your browser settings if you prefer, though some features may
+      not function as intended.
+    </p>
+    <p><a href="./">← Back to home</a></p>
+  </main>
+  <script>
+    document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>

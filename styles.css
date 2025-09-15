@@ -15,7 +15,7 @@ body{
   padding:32px;
 }
 .card{
-  width:min(700px, 100%);
+  width:min(780px, 100%);
   background:#fff;
   border-radius:var(--radius);
   box-shadow:var(--shadow);
@@ -32,15 +32,32 @@ h1{font-size: clamp(22px, 4vw, 30px); margin:8px 0 6px}
   border-radius:10px;
   text-decoration:none;
   border:1px solid #e5e7eb;
-  box-shadow: var(--shadow);
+  box-shadow:var(--shadow);
 }
 .btn:hover{transform:translateY(-1px)}
-.muted{color:#64748b; margin-top:10px}
 footer{margin-top:26px; color:#94a3b8; font-size:14px}
+footer a{color:inherit; text-decoration:underline}
+
+.about{text-align:left; margin-top:24px; color:#334155}
+.about h2{text-align:center; margin-bottom:12px}
+
+.services{text-align:left; margin-top:18px; color:#334155}
+.services h2{text-align:center; margin-bottom:10px}
+.services ul{padding-left:18px; line-height:1.55}
+
+.policy{
+  text-align:left;
+  max-width:780px;
+  margin: 24px auto 0;
+  color:#334155
+}
+.policy h1{font-size: clamp(22px, 4vw, 28px); text-align:center}
+.policy p, .policy li{line-height:1.6}
 @media (prefers-color-scheme: dark){
   body{background:#0b1020;color:#e5e7eb}
   .card{background:#0f172a}
   .btn{border-color:#243041;color:#e5e7eb}
   .muted{color:#a1a1aa}
   footer{color:#94a3b8}
+  .about, .services, .policy{color:#cbd5e1}
 }

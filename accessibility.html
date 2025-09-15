@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility — TECTONIC SHIFT STRATEGIES INC.</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="policy">
+    <h1>Accessibility Statement</h1>
+    <p>Effective: <span id="date"></span></p>
+    <p>
+      Tectonic Shift Strategies Inc. is committed to ensuring digital accessibility for
+      all users. We strive to follow best practices and relevant standards to make this
+      site usable by as many people as possible, including those using assistive technologies.
+    </p>
+    <p>
+      If you encounter any barriers while using this site, please contact us at
+      <a href="mailto:developer@tectonicshift.ca">developer@tectonicshift.ca</a> so we can address the issue.
+    </p>
+    <p><a href="./">← Back to home</a></p>
+  </main>
+  <script>
+    document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>

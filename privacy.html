@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — TECTONIC SHIFT STRATEGIES INC.</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="policy">
+    <h1>Privacy Policy</h1>
+    <p>Effective: <span id="date"></span></p>
+    <p>
+      We collect only the minimal information necessary to operate this site and respond to inquiries.
+      For questions, contact <a href="mailto:developer@tectonicshift.ca">developer@tectonicshift.ca</a>.
+    </p>
+    <p><a href="./">← Back to home</a></p>
+  </main>
+  <script>
+    document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
